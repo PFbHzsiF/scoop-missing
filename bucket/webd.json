@@ -8,7 +8,6 @@
     "hash": "e42e4d5f4dfb8cb79efec81854e9ac78189f10e70e101995cefb6e98de96ddf5",
     "architecture": {
         "64bit": {
-            
             "bin": [
                 [
                     "webd.exe"
@@ -21,7 +20,7 @@
     },
     "shortcuts": [
         [
-            "webd/webd.exe",
+            "webd.exe",
             "webd"
         ]
     ]
