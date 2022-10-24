@@ -11,8 +11,7 @@
             
             "bin": [
                 [
-                    "webd.exe",
-                    "webd"
+                    "webd.exe"
                 ]
             ]
             
