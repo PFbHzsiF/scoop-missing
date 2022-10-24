@@ -1,0 +1,19 @@
+{
+    "version": "2022.05.12",
+    "description": "轻量级(self-hosted)自建网盘软件",
+    "homepage": "https://webd.cf",
+    "license": "N/A",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/PFbHzsiF/scoop-missing/webd-20220512-win32.7z",
+            "hash": "e42e4d5f4dfb8cb79efec81854e9ac78189f10e70e101995cefb6e98de96ddf5"
+        }
+    },
+    "bin": "webd.exe",
+    "shortcuts": [
+        [
+            "webd.exe",
+            "webd"
+        ]
+    ]
+ }
