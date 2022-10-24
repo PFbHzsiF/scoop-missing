@@ -5,7 +5,7 @@
     "license": "N/A",
     "url": "https://github.com/PFbHzsiF/scoop-missing/releases/download/2022.05.12/webd.7z",
     "extract_dir": "webd",
-    "hash": "93aebee668acfb6ad79a50069e53896429435d4e271b807087612b95446495d6",
+    "hash": "d8e318f18e15cd5633fd82ea66136834a9fd60514829a4d9780e865704bd7166",
     "architecture": {
         "64bit": {
             "bin": [
