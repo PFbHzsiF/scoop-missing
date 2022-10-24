@@ -4,6 +4,7 @@
     "homepage": "https://webd.cf",
     "license": "N/A",
     "url": "https://gwgw.ga/webd/20220512/webd-20220512-win32.7z",
+    "extract_dir": "webd",
     "hash": "e42e4d5f4dfb8cb79efec81854e9ac78189f10e70e101995cefb6e98de96ddf5",
     "architecture": {
         "64bit": {
