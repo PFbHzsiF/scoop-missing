@@ -1,0 +1,31 @@
+<job>
+<script language="JScript">
+(function() {
+
+	var argc = WScript.Arguments.Length;
+	if (argc < 2) {
+		return -1;
+	}
+
+	var sh = new ActiveXObject('WScript.Shell');
+	var name=WScript.Arguments(1);
+	var dst = sh.SpecialFolders(WScript.Arguments(0)) + '\\' + name + '.lnk';
+	//Desktop Startup
+
+	if (argc < 3) {
+		var fs = new ActiveXObject("Scripting.FileSystemObject");
+		fs.DeleteFile(dst);
+		return 0;
+	}
+
+	var path = WScript.Arguments(2);
+	var sc = sh.CreateShortcut(dst);
+	sc.TargetPath = path + name + '.exe';
+	sc.WorkingDirectory = path;
+	sc.Save();
+	return 0;
+
+})();
+
+</script>
+</job>
