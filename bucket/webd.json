@@ -6,10 +6,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/PFbHzsiF/scoop-missing/blob/master/webd-20220512-win32.7z",
+            "bin": "webd.exe",
             "hash": "459b0a7e32c2835bf7fcc513f9617608684a697255e08c6152ea4181c316b932"
         }
     },
-    "bin": "webd.exe",
     "shortcuts": [
         [
             "webd.exe",
