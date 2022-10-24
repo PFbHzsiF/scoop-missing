@@ -3,7 +3,7 @@
     "description": "轻量级(self-hosted)自建网盘软件",
     "homepage": "https://webd.cf",
     "license": "N/A",
-    "url": "https://github.com/PFbHzsiF/scoop-missing/blob/master/webd.7z",
+    "url": "https://github.com/PFbHzsiF/scoop-missing/releases/download/2022.05.12/webd.7z",
     "extract_dir": "webd",
     "hash": "93aebee668acfb6ad79a50069e53896429435d4e271b807087612b95446495d6",
     "architecture": {
